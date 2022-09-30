@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arya Yunanta - Curriculum Vitae</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="text-center p-7 text-gray-900 bg-gray-100 mx-auto md:max-w-2xl">
+    <main>
+      <header>
+        <img
+          class="w-80 rounded-full mx-auto"
+          src="./profile.jpg"
+          alt="Profile picture"
+        />
+        <div class="mt-5">
+          <h1 class="font-bold text-3xl">Arya Yunanta</h1>
+          <p class="mt-4">
+            Lubuklinggau, ID |
+            <a href="tel:+6281399175604" class="hover:underline"
+              >+62 81399175604</a
+            >
+            |
+            <a href="mailto:aryayun90@gmail.com" class="hover:underline"
+              >aryayun90@gmail.com</a
+            >
+            |
+            <a href="github.com/aryahmph" class="hover:underline"
+              >github.com/aryahmph</a
+            >
+            |
+            <a href="linkedin.com/in/aryahmph" class="hover:underline"
+              >linkedin.com/in/aryahmph</a
+            >
+          </p>
+        </div>
+      </header>
+      <section class="mt-7">
+        <h2 class="text-2xl font-semibold">Summary</h2>
+        <p class="mt-3">
+          A Computer Science Student with 1 year of experience in Web
+          Development. Familiar with Backend Development, System Analyst, and
+          Front-End slicing using Tailwind CSS.
+        </p>
+      </section>
+      <section class="mt-7">
+        <h2 class="text-2xl font-semibold">Experience</h2>
+        <ul class="mt-5 text-left">
+          <li>
+            <div class="ml-10">
+              <h3 class="text-xl font-medium">Bareksa</h3>
+              <p>Backend Engineer - Internship</p>
+            </div>
+            <ul class="flex flex-col px-10 text-sm list-disc">
+              <li class="mt-1 text-gray-700">
+                Contribute in Backend Development of some features such as
+                Article Feedback.
+              </li>
+              <li class="mt-1 text-gray-700">
+                Implement one of the feature changes from RESTful API-based to
+                GRPC.
+              </li>
+              <li class="mt-1 text-gray-700">
+                Learn about the latest technologies such as MongoDB, Redis, and
+                GRPC.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="mt-7">
+        <h2 class="text-2xl font-semibold">Education</h2>
+        <div
+          class="space-y-3 mt-5 md:flex md:justify-around md:items-center md:space-y-0 md:space-x-5"
+        >
+          <div>
+            <h3 class="text-lg font-medium">Sriwijaya University</h3>
+            <p class="text-sm">Bachelor, Computer Science</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-medium">Ruangguru Backend Track</h3>
+            <p class="text-sm">Kampus Merdeka</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact mt-12">
+        <h2 class="text-2xl font-semibold">Hubungi Saya</h2>
+        <form action="" method="post" class="space-y-7 mb-5">
+          <div>
+            <label for="full-name">Full name:</label>
+            <input
+              class="bg-white"
+              type="text"
+              id="full-name"
+              name="full-name"
+            />
+          </div>
+          <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" /><br />
+          </div>
+          <button
+            type="submit"
+            class="mt-5 px-8 py-2 text-white rounded-lg font-semibold bg-sky-500 hover:bg-sky-700"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
